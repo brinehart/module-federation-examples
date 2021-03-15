@@ -72,7 +72,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ff-ix:build"
+            "browserTarget": "ff-ix:build",
+            "port": 9000
           },
           "configurations": {
             "production": {
