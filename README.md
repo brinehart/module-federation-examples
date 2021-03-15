@@ -38,3 +38,4 @@ NOTE: I'll call out in my talk when we are switching, but for your reference, he
 - [The Microfrontend Revolution](https://www.angulararchitects.io/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/)
 - [Webpack 5 Module Federation Official Docs](https://webpack.js.org/concepts/module-federation/)
 - [Module Federation Learning Site](https://module-federation.github.io/)
+- [Final Fantasy Wiki (assets and text)](https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki)
