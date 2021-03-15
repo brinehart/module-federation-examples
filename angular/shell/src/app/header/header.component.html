@@ -3,4 +3,12 @@
     <mat-icon>menu</mat-icon>
   </button>
   <img src="/assets/images/FF_PSX_Ref_Guide_logo_light.png" [alt]="siteTitle" height="55"/>
+  <span class="example-spacer"></span>
+  <span class="d-none d-md-inline">
+    <button mat-button class="nav-button" *ngFor="let item of navigation" [routerLink]="[item.link]"
+      routerLinkActive="active">
+      {{item.label}}
+    </button>
+  </span>
+
 </mat-toolbar>
