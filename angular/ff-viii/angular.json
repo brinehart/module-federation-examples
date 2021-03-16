@@ -103,7 +103,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles/theme.scss"
             ],
             "scripts": [],
             "extraWebpackConfig": "webpack.config.js"
