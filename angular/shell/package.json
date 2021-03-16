@@ -12,7 +12,7 @@
   "private": true,
   "resolutions": {
     "webpack": "^5.0.0"
-  },
+},
   "dependencies": {
     "@angular-architects/module-federation": "^1.2.3",
     "@angular/animations": "~10.0.5",
