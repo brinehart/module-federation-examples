@@ -17,28 +17,21 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      
+
         // For remotes (please adjust)
-        // name: "ff-vii",
-        // filename: "remoteEntry.js",
-        // exposes: {
-        //     './Component': './/src/app/app.component.ts',
-        // },        
-        
-        // For hosts (please adjust)
-        // remotes: {
-        //     "mfe1": "mfe1@http://localhost:3000/remoteEntry.js",
-
-        // },
-
+        name: "ff-vii",
+        filename: "remoteEntry.js",
+        exposes: {
+            './Module': './src/app/characters/characters.module.ts',
+        },
         shared: {
-          "@angular/core": { singleton: true, strictVersion: true }, 
-          "@angular/common": { singleton: true, strictVersion: true }, 
+          "@angular/core": { singleton: true, strictVersion: true },
+          "@angular/common": { singleton: true, strictVersion: true },
           "@angular/router": { singleton: true, strictVersion: true },
-
+          "@angular/material": { singleton: true, strictVersion: true },
           ...sharedMappings.getDescriptors()
         }
-        
+
     }),
     sharedMappings.getPlugin(),
   ],
